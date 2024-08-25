@@ -12,8 +12,8 @@ const ToutText: React.FC<props> = ({ advices }) => {
 
                     <ul className="list-disc pl-5 w-full text-left font-extrabold">
                         {
-                            advices.map(text => (
-                                <li>{text}</li>
+                            advices.map((text, index) => (
+                                <li key={ `${text}-${index} `}>{text}</li>
                             ))
                         }
                     </ul>
