@@ -33,7 +33,7 @@ const NavBar = () => {
                 </Link>
             </div>
             <ul>
-                <li>Juan Pablo - Camilo</li>
+                <li>Juan Pablo - Carlos Medina</li>
             </ul>
         </div>
     );
